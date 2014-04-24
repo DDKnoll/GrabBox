@@ -1,0 +1,230 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'express-generator' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'express-generator', null ]
+7 verbose cache add name=undefined spec="express-generator" args=["express-generator",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'express-generator',
+8 verbose parsed url   path: 'express-generator',
+8 verbose parsed url   href: 'express-generator' }
+9 silly lockFile 198a68d8-express-generator express-generator
+10 verbose lock express-generator /Users/DigDug/.npm/198a68d8-express-generator.lock
+11 silly lockFile 198a68d8-express-generator express-generator
+12 silly lockFile 198a68d8-express-generator express-generator
+13 verbose addNamed [ 'express-generator', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile bd41e3d3-express-generator express-generator@
+16 verbose lock express-generator@ /Users/DigDug/.npm/bd41e3d3-express-generator.lock
+17 silly addNameRange { name: 'express-generator', range: '', hasData: false }
+18 verbose url raw express-generator
+19 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
+20 verbose url resolved https://registry.npmjs.org/express-generator
+21 info trying registry request attempt 1 at 20:10:34
+22 http GET https://registry.npmjs.org/express-generator
+23 http 200 https://registry.npmjs.org/express-generator
+24 silly registry.get cb [ 200,
+24 silly registry.get   { date: 'Thu, 24 Apr 2014 03:10:35 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+24 silly registry.get     etag: '"S164XDKBOTMQZX7YZMXRWSK5"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     'content-length': '7219',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     age: '14746',
+24 silly registry.get     'x-served-by': 'cache-v41-ASH, cache-lax1427-LAX',
+24 silly registry.get     'x-cache': 'HIT, MISS',
+24 silly registry.get     'x-cache-hits': '1, 0',
+24 silly registry.get     'x-timer': 'S1398283794.231045723,VS0,VS31,VE40,VE25241255',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly addNameRange number 2 { name: 'express-generator', range: '', hasData: true }
+26 silly addNameRange versions [ 'express-generator', [ '1.0.0', '3.0.0', '4.0.0' ] ]
+27 verbose addNamed [ 'express-generator', '4.0.0' ]
+28 verbose addNamed [ '4.0.0', '4.0.0' ]
+29 silly lockFile 90c7528a-express-generator-4-0-0 express-generator@4.0.0
+30 verbose lock express-generator@4.0.0 /Users/DigDug/.npm/90c7528a-express-generator-4-0-0.lock
+31 silly lockFile 25977c2d-ator-express-generator-4-0-0-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz
+32 verbose lock https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz /Users/DigDug/.npm/25977c2d-ator-express-generator-4-0-0-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz',
+33 verbose addRemoteTarball   '1b16275739e6bd8cf670f5babc87b65e01bc045b' ]
+34 info retry fetch attempt 1 at 20:10:35
+35 verbose fetch to= /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz
+36 http GET https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz
+37 http 200 https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz
+38 silly shasum updated bytes 5162
+39 info shasum 1b16275739e6bd8cf670f5babc87b65e01bc045b
+39 info shasum /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz
+40 verbose tar unpack /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz
+41 silly lockFile 5cac17ce-35315-0-3843640764243901-package /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+42 verbose lock /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package /Users/DigDug/.npm/5cac17ce-35315-0-3843640764243901-package.lock
+43 silly lockFile ab8a8f92-35315-0-3843640764243901-tmp-tgz /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz
+44 verbose lock /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz /Users/DigDug/.npm/ab8a8f92-35315-0-3843640764243901-tmp-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry LICENSE
+50 silly gunzTarPerm extractEntry bin/express
+51 silly gunzTarPerm extractEntry templates/css/style.css
+52 silly gunzTarPerm extractEntry templates/css/style.less
+53 silly gunzTarPerm extractEntry templates/css/style.scss
+54 silly gunzTarPerm extractEntry templates/css/style.styl
+55 silly gunzTarPerm extractEntry templates/ejs/error.ejs
+56 silly gunzTarPerm extractEntry templates/ejs/index.ejs
+57 silly gunzTarPerm extractEntry templates/hogan/error.hjs
+58 silly gunzTarPerm extractEntry templates/hogan/index.hjs
+59 silly gunzTarPerm extractEntry templates/jade/error.jade
+60 silly gunzTarPerm extractEntry templates/jade/index.jade
+61 silly gunzTarPerm extractEntry templates/jade/layout.jade
+62 silly gunzTarPerm extractEntry templates/js/app.js
+63 silly gunzTarPerm extractEntry templates/js/routes/index.js
+64 silly gunzTarPerm extractEntry templates/js/routes/users.js
+65 silly gunzTarPerm extractEntry templates/js/www
+66 verbose read json /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package/package.json
+67 silly lockFile 5cac17ce-35315-0-3843640764243901-package /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+68 silly lockFile 5cac17ce-35315-0-3843640764243901-package /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+69 silly lockFile ab8a8f92-35315-0-3843640764243901-tmp-tgz /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz
+70 silly lockFile ab8a8f92-35315-0-3843640764243901-tmp-tgz /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/tmp.tgz
+71 verbose from cache /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package/package.json
+72 verbose tar pack [ '/Users/DigDug/.npm/express-generator/4.0.0/package.tgz',
+72 verbose tar pack   '/var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package' ]
+73 verbose tarball /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+74 verbose folder /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+75 silly lockFile 5cac17ce-35315-0-3843640764243901-package /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+76 verbose lock /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package /Users/DigDug/.npm/5cac17ce-35315-0-3843640764243901-package.lock
+77 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+78 verbose lock /Users/DigDug/.npm/express-generator/4.0.0/package.tgz /Users/DigDug/.npm/14fb1069-ress-generator-4-0-0-package-tgz.lock
+79 silly lockFile 5cac17ce-35315-0-3843640764243901-package /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+80 silly lockFile 5cac17ce-35315-0-3843640764243901-package /var/folders/07/0v_d13n959zb8km7fp188btr0000gn/T/npm-39132/1398309035315-0.3843640764243901/package
+81 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+82 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+83 silly lockFile e1e63279--express-generator-4-0-0-package /Users/DigDug/.npm/express-generator/4.0.0/package
+84 verbose lock /Users/DigDug/.npm/express-generator/4.0.0/package /Users/DigDug/.npm/e1e63279--express-generator-4-0-0-package.lock
+85 silly lockFile e1e63279--express-generator-4-0-0-package /Users/DigDug/.npm/express-generator/4.0.0/package
+86 silly lockFile e1e63279--express-generator-4-0-0-package /Users/DigDug/.npm/express-generator/4.0.0/package
+87 verbose tar unpack /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+88 silly lockFile e1e63279--express-generator-4-0-0-package /Users/DigDug/.npm/express-generator/4.0.0/package
+89 verbose lock /Users/DigDug/.npm/express-generator/4.0.0/package /Users/DigDug/.npm/e1e63279--express-generator-4-0-0-package.lock
+90 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+91 verbose lock /Users/DigDug/.npm/express-generator/4.0.0/package.tgz /Users/DigDug/.npm/14fb1069-ress-generator-4-0-0-package-tgz.lock
+92 silly gunzTarPerm modes [ '755', '644' ]
+93 silly gunzTarPerm extractEntry package.json
+94 silly gunzTarPerm extractEntry .npmignore
+95 silly gunzTarPerm extractEntry README.md
+96 silly gunzTarPerm extractEntry LICENSE
+97 silly gunzTarPerm extractEntry bin/express
+98 silly gunzTarPerm extractEntry templates/css/style.css
+99 silly gunzTarPerm extractEntry templates/css/style.less
+100 silly gunzTarPerm extractEntry templates/css/style.scss
+101 silly gunzTarPerm extractEntry templates/css/style.styl
+102 silly gunzTarPerm extractEntry templates/ejs/error.ejs
+103 silly gunzTarPerm extractEntry templates/ejs/index.ejs
+104 silly gunzTarPerm extractEntry templates/hogan/error.hjs
+105 silly gunzTarPerm extractEntry templates/hogan/index.hjs
+106 silly gunzTarPerm extractEntry templates/jade/error.jade
+107 silly gunzTarPerm extractEntry templates/jade/index.jade
+108 silly gunzTarPerm extractEntry templates/jade/layout.jade
+109 silly gunzTarPerm extractEntry templates/js/app.js
+110 silly gunzTarPerm extractEntry templates/js/routes/index.js
+111 silly gunzTarPerm extractEntry templates/js/routes/users.js
+112 silly gunzTarPerm extractEntry templates/js/www
+113 verbose read json /Users/DigDug/.npm/express-generator/4.0.0/package/package.json
+114 silly lockFile e1e63279--express-generator-4-0-0-package /Users/DigDug/.npm/express-generator/4.0.0/package
+115 silly lockFile e1e63279--express-generator-4-0-0-package /Users/DigDug/.npm/express-generator/4.0.0/package
+116 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+117 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+118 silly shasum updated bytes 5162
+119 info shasum 1b16275739e6bd8cf670f5babc87b65e01bc045b
+119 info shasum /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+120 verbose from cache /Users/DigDug/.npm/express-generator/4.0.0/package/package.json
+121 verbose chmod /Users/DigDug/.npm/express-generator/4.0.0/package.tgz 644
+122 verbose chown /Users/DigDug/.npm/express-generator/4.0.0/package.tgz [ 501, 20 ]
+123 silly lockFile 25977c2d-ator-express-generator-4-0-0-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz
+124 silly lockFile 25977c2d-ator-express-generator-4-0-0-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz
+125 silly lockFile 90c7528a-express-generator-4-0-0 express-generator@4.0.0
+126 silly lockFile 90c7528a-express-generator-4-0-0 express-generator@4.0.0
+127 silly lockFile bd41e3d3-express-generator express-generator@
+128 silly lockFile bd41e3d3-express-generator express-generator@
+129 silly resolved [ { name: 'express-generator',
+129 silly resolved     description: 'Express\' application generator',
+129 silly resolved     version: '4.0.0',
+129 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+129 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+129 silly resolved     dependencies: { commander: '1.3.2', mkdirp: '0.3.5' },
+129 silly resolved     keywords:
+129 silly resolved      [ 'express',
+129 silly resolved        'framework',
+129 silly resolved        'sinatra',
+129 silly resolved        'web',
+129 silly resolved        'rest',
+129 silly resolved        'restful',
+129 silly resolved        'router',
+129 silly resolved        'app',
+129 silly resolved        'api' ],
+129 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/generator' },
+129 silly resolved     main: 'bin/express',
+129 silly resolved     bin: { express: './bin/express' },
+129 silly resolved     engines: { node: '>= 0.8.0' },
+129 silly resolved     readme: '[![express logo](http://f.cl.ly/items/0V2S1n0K1i3y1c122g04/Screen%20Shot%202012-04-11%20at%209.59.42%20AM.png)](http://expressjs.com/)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).\n\n  [![Gittip](http://img.shields.io/gittip/visionmedia.png)](https://www.gittip.com/visionmedia/)\n\n## Quick Start\n\n The quickest way to get started with express is to utilize the executable `express(1)` to generate an application as shown below:\n\n Create the app:\n\n    $ npm install -g express-generator\n    $ express /tmp/foo && cd /tmp/foo\n\n Install dependencies:\n\n    $ npm install\n\n Rock and Roll\n\n    $ npm start\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2009-2012 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+129 silly resolved     readmeFilename: 'README.md',
+129 silly resolved     _id: 'express-generator@4.0.0',
+129 silly resolved     dist: { shasum: '1b16275739e6bd8cf670f5babc87b65e01bc045b' },
+129 silly resolved     _from: 'express-generator@',
+129 silly resolved     _resolved: 'https://registry.npmjs.org/express-generator/-/express-generator-4.0.0.tgz' } ]
+130 info install express-generator@4.0.0 into /usr/local/lib
+131 info installOne express-generator@4.0.0
+132 verbose from cache /Users/DigDug/.npm/express-generator/4.0.0/package/package.json
+133 info /usr/local/lib/node_modules/express-generator unbuild
+134 verbose read json /usr/local/lib/node_modules/express-generator/package.json
+135 verbose tar unpack /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+136 silly lockFile d3cc1706-b-node-modules-express-generator /usr/local/lib/node_modules/express-generator
+137 verbose lock /usr/local/lib/node_modules/express-generator /Users/DigDug/.npm/d3cc1706-b-node-modules-express-generator.lock
+138 silly lockFile 14fb1069-ress-generator-4-0-0-package-tgz /Users/DigDug/.npm/express-generator/4.0.0/package.tgz
+139 verbose lock /Users/DigDug/.npm/express-generator/4.0.0/package.tgz /Users/DigDug/.npm/14fb1069-ress-generator-4-0-0-package-tgz.lock
+140 silly gunzTarPerm modes [ '755', '644' ]
+141 error Error: EACCES, mkdir '/usr/local/lib/node_modules/express-generator'
+141 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/express-generator']
+141 error   errno: 3,
+141 error   code: 'EACCES',
+141 error   path: '/usr/local/lib/node_modules/express-generator',
+141 error   fstream_type: 'Directory',
+141 error   fstream_path: '/usr/local/lib/node_modules/express-generator',
+141 error   fstream_class: 'DirWriter',
+141 error   fstream_stack:
+141 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+141 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+141 error      'Object.oncomplete (fs.js:107:15)' ] }
+142 error Please try running this command again as root/Administrator.
+143 error System Darwin 13.1.0
+144 error command "node" "/usr/local/bin/npm" "install" "-g" "express-generator"
+145 error cwd /Users/DigDug/GrabBox
+146 error node -v v0.10.3
+147 error npm -v 1.2.17
+148 error path /usr/local/lib/node_modules/express-generator
+149 error fstream_path /usr/local/lib/node_modules/express-generator
+150 error fstream_type Directory
+151 error fstream_class DirWriter
+152 error code EACCES
+153 error errno 3
+154 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/express-generator'
+155 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+155 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+155 error fstream_stack Object.oncomplete (fs.js:107:15)
+156 verbose exit [ 3, true ]
